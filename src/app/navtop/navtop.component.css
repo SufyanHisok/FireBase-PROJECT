@@ -1,0 +1,11 @@
+.navbar {
+    background-color: #8A0651 !important;
+    color: #FFFFFF;
+    font-family: 'Tisa';
+}
+
+.btnColor {
+    color: #8A0651;
+    background-color: #FFFFFF ;
+    border: 2px solid #8A0651;
+}

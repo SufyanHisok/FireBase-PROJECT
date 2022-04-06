@@ -1,0 +1,60 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="card col-md-8 mt-4 py-2 px-5">
+            <h2 class="text-center"> Add A Student </h2>
+            <hr>
+
+            <div class="row">
+                <div class="col-md-6">
+            
+                    <div class="row">
+                        <mat-form-field appearance="legacy" class="px-4 mb-2">
+                            <mat-label>Student Name</mat-label>
+                            <input [(ngModel)]="Students.Title" matInput>
+                        </mat-form-field>
+                    </div>
+
+                    <div class="row">
+                        <mat-form-field appearance="legacy" class="px-4 mb-2">
+                            <mat-label>Age</mat-label>
+                            <input [(ngModel)]="Students.Age" matInput type="number">
+                        </mat-form-field>
+                    </div>
+
+                    <div class="row">
+                        <mat-form-field appearance="legacy" class="px-4 mb-2">
+                            <mat-label>Field</mat-label>
+                            <input [(ngModel)]="Students.Field"  matInput>
+                        </mat-form-field>
+                    </div>
+
+                    <div class="row">
+                        <mat-form-field appearance="legacy" class="px-4 mb-4">
+                            <mat-label>Roll Number</mat-label>
+                            <input [(ngModel)]="Students.RollNo" matInput>
+                            <mat-hint align="end">Assign unique Roll no. to each student</mat-hint>
+                        </mat-form-field>
+                    </div>
+
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="textDiv">
+                    <h2 class="text-muted" style="font-family:cursive"> Join the Leading Institute to gain World Class knoweldge </h2>
+                    </div>
+                </div>
+            
+        </div>
+        <hr>
+        <div class="row py-4">
+            <div>
+                <button (click)="onSubmit()" type="button" class="btn btnSub col-md-3"> Submit </button>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>
+</div>

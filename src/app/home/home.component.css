@@ -1,0 +1,10 @@
+.card {
+    border: 2px solid #8A0651;
+   background-color: whitesmoke;
+    
+}
+.btnColor {
+    color: #8A0651;
+    background-color: #FFFFFF ;
+    border: 2px solid #8A0651;
+}

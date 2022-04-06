@@ -1,0 +1,17 @@
+body {
+    background-color: #4e4e4e !important;
+    font-family: 'Tisa' !important;
+}
+
+@font-face {
+    font-family: Tisa;
+    src: url(assets/fonts/tisa/TisaSans.ttf) format("truetype");
+}
+.Tisa {
+    font-family: Tisa;
+}
+.whiteText {
+    color: #ffff;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

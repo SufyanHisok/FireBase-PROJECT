@@ -1,0 +1,20 @@
+.form-control {
+    border: 1px  solid #8a06516c;
+}
+.form-control:focus {
+    border-color: #8A0651;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 106, 0.76);
+  }
+.btnSub {
+    border: 2px solid #8f0352d3 ;
+    
+}
+
+.btnSub:hover {
+    background-color: #8A0651;
+    color: #ffff;
+    transition: 600ms;
+}
+.textDiv {
+    padding: 80px 1px;
+}
